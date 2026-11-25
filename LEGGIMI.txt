@@ -1,0 +1,31 @@
+﻿RAPPORTO DI SOPRALLUOGO ARTESIA - rev. 5 del 25.11.26
+=====================================================
+
+SU PC WINDOWS (subito, senza internet)
+1. Estrai lo ZIP in una cartella qualsiasi (tasto destro > Estrai tutto).
+2. Doppio clic su "Installa_su_PC.cmd".
+   Se Windows mostra un avviso di protezione, scegli "Ulteriori informazioni" > "Esegui comunque".
+3. Sul Desktop e nel menu Start compare "Rapporto di Sopralluogo" con l'icona Artesia:
+   si apre nella sua finestra, senza barra del browser.
+   Dopo l'installazione la cartella estratta si può cancellare.
+
+I PDF e i file "Salva dati" vanno nella cartella Download.
+Per disinstallare: cancella i collegamenti "Rapporto di Sopralluogo"
+e la cartella %LOCALAPPDATA%\RapportoSopralluogo.
+
+SU TABLET (iPad, Android) E PC, COME APP WEB
+Serve metterla una volta su uno spazio web con indirizzo https
+(sito aziendale, servizio di hosting: chiedere all'IT).
+Va caricato tutto il contenuto di questa cartella, tranne
+Installa_su_PC.cmd e installa.ps1.
+Poi, aprendo l'indirizzo:
+ - iPad/iPhone (Safari): Condividi > "Aggiungi alla schermata Home"
+ - Android (Chrome): menu > "Installa app" o "Aggiungi a schermata Home"
+ - PC (Edge/Chrome): icona "Installa" nella barra dell'indirizzo
+Dopo la prima apertura funziona anche senza connessione.
+Quando si aggiorna il modulo basta sostituire i file sul sito:
+i dispositivi ricevono la nuova versione alla prima apertura con internet.
+
+NOTE
+- Ogni dispositivo tiene la propria bozza. Per passarsi un rapporto
+  usare "Salva dati" e "Carica dati".
