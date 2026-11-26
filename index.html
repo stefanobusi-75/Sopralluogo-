@@ -196,7 +196,7 @@ const pompa = (p, titolo) => [
 
 const SCHEMA = [
   { id: 'intervento', title: 'Intervento', rows: [
-    [{ k: 'data', l: 'Data sopralluogo', s: 3, t: 'date' }, C('tipo', 'Tipo di intervento', 9, ['Nuovo pozzo', 'Manutenzione pozzo', 'Geotermia aperta', 'Sonde geotermiche', 'Manutenzione impianto', 'Nuovo impianto', 'Impianto di dewatering'])],
+    [{ k: 'data', l: 'Data sopralluogo', s: 2, t: 'date' }, C('tipo', 'Tipo di intervento', 10, ['Nuovo pozzo', 'Manutenzione pozzo', 'Chiusura pozzo', 'Geotermia aperta', 'Sonde geotermiche', 'Manutenzione impianto', 'Nuovo impianto', 'Impianto di dewatering'], { cols: 4 })],
   ] },
   { id: 'committente', title: 'Committente', rows: [
     [T('rag', 'Nome / Ragione sociale', 12)],
